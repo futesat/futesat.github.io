@@ -1,6 +1,6 @@
 # Tech Lead / Software Engineer Portfolio
 
-This is a modern, responsive portfolio website formatted for GitHub Pages. It features a "2025" aesthetic with dark mode, glassmorphism, and subtle animations.
+Designed for GitHub Pages, this modern and responsive portfolio features a premium dark mode aesthetic, glassmorphism, and fluid animations.
 
 ## Live Demo
 Check it out at: [https://futesat.github.io](https://futesat.github.io)
