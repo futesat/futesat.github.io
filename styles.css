@@ -4,8 +4,10 @@
     --bg-secondary: #0f1016;
     --text-primary: #ffffff;
     --text-secondary: #a0a0b0;
-    --accent-primary: #6d28d9; /* Deep Purple */
-    --accent-secondary: #00d4ff; /* Cyan */
+    --accent-primary: #6d28d9;
+    /* Deep Purple */
+    --accent-secondary: #00d4ff;
+    /* Cyan */
     --accent-glow: rgba(109, 40, 217, 0.4);
     --glass-bg: rgba(255, 255, 255, 0.03);
     --glass-border: rgba(255, 255, 255, 0.08);
@@ -72,7 +74,12 @@ ul {
 }
 
 /* Typography Utilities */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-heading);
     color: var(--text-primary);
     font-weight: 700;
@@ -207,7 +214,8 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
 }
 
-.nav-links a:hover, .nav-links a.active {
+.nav-links a:hover,
+.nav-links a.active {
     color: var(--text-primary);
 }
 
@@ -222,7 +230,8 @@ h1, h2, h3, h4, h5, h6 {
     transition: width 0.3s;
 }
 
-.nav-links a:hover::after, .nav-links a.active::after {
+.nav-links a:hover::after,
+.nav-links a.active::after {
     width: 100%;
 }
 
@@ -309,9 +318,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @keyframes float {
-    0% { transform: translateY(0px) scale(1); }
-    50% { transform: translateY(-20px) scale(1.05); }
-    100% { transform: translateY(0px) scale(1); }
+    0% {
+        transform: translateY(0px) scale(1);
+    }
+
+    50% {
+        transform: translateY(-20px) scale(1.05);
+    }
+
+    100% {
+        transform: translateY(0px) scale(1);
+    }
 }
 
 /* Sections General */
@@ -505,7 +522,7 @@ footer {
     .hero-content h1 {
         font-size: 2.5rem;
     }
-    
+
     .screen-hide {
         display: none;
     }
@@ -539,6 +556,10 @@ footer {
 
     .section-title {
         font-size: 2rem;
+        display: block;
+        width: 100%;
+        left: auto;
+        transform: none;
     }
 }
 
