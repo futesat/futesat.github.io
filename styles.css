@@ -385,6 +385,7 @@ h6 {
 .timeline-content h3 {
     margin-bottom: 0.2rem;
     font-size: 1.5rem;
+    text-align: left;
 }
 
 .highlight {
