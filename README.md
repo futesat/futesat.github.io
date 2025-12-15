@@ -34,4 +34,4 @@ Check it out at: [https://futesat.github.io](https://futesat.github.io)
 Since this is a GitHub Pages repository, simply push your changes to the `main` or `master` branch. GitHub will automatically deploy these static files.
 
 ---
-Built by [Cesar Caamaño Beiro](https://github.com/futesat)
+Built by [futesat](https://github.com/futesat)
