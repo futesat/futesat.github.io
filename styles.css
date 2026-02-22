@@ -614,13 +614,28 @@ footer {
     font-weight: 600;
     display: inline-flex;
     align-items: center;
-    gap: 0.4rem;
+    gap: 0.6rem;
     position: relative;
     transition: color var(--transition-speed);
 }
 
 .cert-link i {
     font-size: 1rem;
+    min-width: 1.1rem;
+    text-align: center;
+}
+
+.cert-link--plain {
+    color: var(--text-secondary);
+    cursor: default;
+}
+
+.cert-link--plain::after {
+    display: none;
+}
+
+.cert-link--plain:hover {
+    color: var(--text-secondary);
 }
 
 .cert-link::after {
